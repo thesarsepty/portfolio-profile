@@ -126,6 +126,27 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+@layer components {
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1px #909090;
+  }
+  .group:hover .group-hover\:text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+}
+
 @layer base {
   /* * {
     @apply border-border outline-ring/50;
@@ -133,4 +154,11 @@
   body {
     @apply bg-background text-white font-primary leading-loose;
   }
+
+  /* .text-outline {
+    -webkit-text-stroke: 1px #909090;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  } */
 }
