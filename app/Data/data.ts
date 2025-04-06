@@ -75,174 +75,180 @@ export const servicesData = [
 
 export const projectData = [
   {
-    id: 1,
-    image: "/images/project1.png",
-    url: "https://siptravel.id/",
+    id: "01",
+    category: "Frontend",
+    github: "#",
+    href: "https://cmsindonesia.com/",
+    title: "Coin Market Score",
+    description:
+      "Coin Market Score is a web application for all levels crypto traders with a various features like education and global news about crypto. also as a platform predictions and scoring crypto prices supported by Artificial Intelligence(AI).",
+    stacks: [
+      { name: "VueJs" },
+      { name: "ReactJs" },
+      { name: "Redux" },
+      { name: "Tailwindcss" },
+      { name: "Figma" },
+      { name: "NestJs" },
+    ],
+    image: "/assets/work/project4.png",
   },
   {
-    id: 2,
-    image: "/images/project2.png",
-    url: "https://fantek.id/",
+    id: "02",
+    category: "Frontend",
+    github: "#",
+    href: "https://pikkat.company/",
+    title: "Pikkat Landing Page",
+    description:
+      "Company profile landing page for Pikkat, a company that provides a platform for all levels UMKM to sell their products online. This landing page is designed to be responsive and user-friendly, with a focus on showcasing the company's services and features.",
+    stacks: [
+      { name: "ReactJs" },
+      { name: "Redux" },
+      { name: "Tailwindcss" },
+      { name: "CSS 3" },
+      { name: "Figma" },
+    ],
+    image: "/assets/work/project3.png",
   },
   {
-    id: 3,
-    image: "/images/project3.png",
-    url: "https://pikkat.company/",
+    id: "03",
+    category: "Frontend",
+    github: "#",
+    href: "https://fantek.id/",
+    title: "Fantek Indonesia",
+    description:
+      "Fantek is a web application that provides game top-up services. This application is designed to be user-friendly and responsive, with a focus on providing a seamless experience for users.",
+    stacks: [
+      { name: "NextJs" },
+      { name: "Tailwindcss" },
+      { name: "CSS 3" },
+      { name: "Typescript" },
+      { name: "Figma" },
+    ],
+    image: "/assets/work/project2.png",
   },
   {
-    id: 4,
-    image: "/images/project4.png",
-    url: "https://cmsindonesia.com/",
-  },
-  // {
-  //   id: 5,
-  //   image: "/images/p5.png",
-  //   url: "https://invest-peach.vercel.app/",
-  // },
-  // {
-  //   id: 6,
-  //   image: "/images/p6.png",
-  //   url: "https://job-chi-ruby.vercel.app/",
-  // },
-  // {
-  //   id: 7,
-  //   image: "/images/p7.png",
-  //   url: "https://wdw-ecom.vercel.app/",
-  // },
-  // {
-  //   id: 8,
-  //   image: "/images/p8.png",
-  //   url: "https://webhost-ten.vercel.app/",
-  // },
-];
-
-export const skillsData = [
-  {
-    id: 1,
-    title: "React",
-    image: "/images/react.svg",
-    percent: "90%",
-  },
-  {
-    id: 2,
-    title: "CSS",
-    image: "/images/css.svg",
-    percent: "97%",
-  },
-  {
-    id: 3,
-    title: "JavaScript",
-    image: "/images/js.svg",
-    percent: "77%",
-  },
-  {
-    id: 4,
-    title: "TypeScript",
-    image: "/images/ts.svg",
-    percent: "67%",
-  },
-  {
-    id: 5,
-    title: "HTML",
-    image: "/images/html.svg",
-    percent: "67%",
-  },
-  {
-    id: 6,
-    title: "Node JS",
-    image: "/images/node.svg",
-    percent: "77%",
-  },
-  {
-    id: 7,
-    title: "MongoDB",
-    image: "/images/mongo.svg",
-    percent: "65%",
-  },
-  {
-    id: 8,
-    title: "Python",
-    image: "/images/python.svg",
-    percent: "55%",
-  },
-  {
-    id: 9,
-    title: "Firebase",
-    image: "/images/firebase.svg",
-    percent: "75%",
-  },
-  {
-    id: 10,
-    title: "Vue",
-    image: "/images/vue.svg",
-    percent: "35%",
+    id: "04",
+    category: "Frontend",
+    github: "#",
+    href: "https://siptravel.id/",
+    title: "SIP Travel",
+    description:
+      "SIP Travel is a web application that provides travel services and accommodation booking. This application is designed to be user-friendly and responsive, with a focus on providing a seamless experience for users.",
+    stacks: [
+      { name: "NextJs" },
+      { name: "Bootstrap" },
+      { name: "Material UI" },
+      { name: "CSS 3" },
+      { name: "Figma" },
+    ],
+    image: "/assets/work/project1.png",
   },
 ];
 
-export const clientReviews = [
-  {
-    name: "John Doe",
-    review:
-      "Exceptional service! The team delivered exactly what we needed on time. Very professional",
-    rating: 5,
-    profession: "Marketing Manager",
-    image: "/images/u1.jpg",
-  },
-  {
-    name: "Jane Smith",
-    review:
-      "Highly skilled developers who understand the client's vision and execute perfectly.",
-    rating: 4.8,
-    profession: "Business Owner",
-    image: "/images/u2.jpg",
-  },
-  {
-    name: "Michael Johnson",
-    review:
-      "Great communication and excellent results. Our new site performs beautifully.",
-    rating: 4.6,
-    profession: "Project Coordinator",
-    image: "/images/u3.jpg",
-  },
-  {
-    name: "Emily Brown",
-    review:
-      "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
-    rating: 4.9,
-    profession: "Creative Director",
-    image: "/images/u4.jpg",
-  },
-];
+export const experienceData = {
+  icon: "assets/resume/badge.svg",
+  title: "My Experience",
+  description:
+    "I have worked on a variety of projects, ranging from small personal websites to large-scale applications. My experience includes working with various technologies and frameworks, and I am always eager to learn and adapt to new challenges.",
+  items: [
+    {
+      id: 1,
+      company: "Beever Indoensia / Smartek Inter",
+      position: "Frontend Developer",
+      duration: "2022 - Present",
+    },
+    {
+      id: 2,
+      company: "MRT Jakarta",
+      position: "Freelance Frontend Developer",
+      duration: "2022",
+    },
+    {
+      id: 3,
+      company: "PT Qlue Performa Indonesia",
+      position: "Frontend Developer",
+      duration: "Mar 2022 - Sep 2022",
+    },
+    {
+      id: 4,
+      company: "Flip.co.id",
+      position: "Internship Game Developer",
+      duration: "2021 - 2022",
+    },
+    {
+      id: 5,
+      company: "Temae Entertainment",
+      position: "Interior Designer",
+      duration: "2018 - 2019",
+    },
+  ],
+};
 
-export const blogs = [
-  {
-    id: 1,
-    title: "Top Web Development Trends to Watch in 2024",
-    summary:
-      "Explore the key web development trends for 2024 and their impact on your business.",
-    date: "August 18, 2024",
-    image: "/images/b1.jpg",
-  },
-  {
-    id: 2,
-    title: "Why Your Business Needs a Custom Web Application",
-    summary:
-      "Discover why custom web applications are crucial for driving business growth and efficiency.",
-    date: "August 10, 2024",
-    image: "/images/b2.jpg",
-  },
-  {
-    id: 3,
-    title: "The Importance of Website Speed Optimization",
-    summary:
-      "Understand how website speed impacts user experience and learn essential optimization tips.",
-    date: "July 25, 2024",
-    image: "/images/b3.jpg",
-  },
-];
+export const educationData = {
+  icon: "assets/resume/cap.svg",
+  title: "My Education",
+  description:
+    "I have completed various courses and certifications that have equipped me with the skills needed to excel in the tech industry.",
+  items: [
+    {
+      id: 1,
+      institution: "Hacktiv8 Bootcamp Indonesia",
+      degree: "Fullstack Developer",
+      duration: "2021",
+    },
+    {
+      id: 2,
+      institution: "Codecademy",
+      degree: "Frontend Track",
+      duration: "2021",
+    },
+    {
+      id: 3,
+      institution: "Institut Kesenian Jakarta",
+      degree: "Interior Design",
+      duration: "2016 - 2019",
+    },
+  ],
+};
 
 export const contactData = {
   phone: "+88(012345 789)",
   email: "example@gmail.com",
   address: "Dhaka , Bangladesh",
+};
+
+export const aboutData = {
+  title: "About Me",
+  description:
+    "I am a passionate Frontend Engineer with a knack for creating stunning web applications. With almost 4 years of experience, I have honed my skills in various technologies and frameworks. I thrive on challenges and am always eager to learn and adapt to new trends in the industry.",
+  info: [
+    {
+      fieldName: "Name",
+      fieldValue: "Thesar Nadhif",
+    },
+    {
+      fieldName: "Phone",
+      fieldValue: "(+62) 877 1392 0003",
+    },
+    {
+      fieldName: "Experience",
+      fieldValue: "4+ Years",
+    },
+    {
+      fieldName: "Nationality",
+      fieldValue: "Indonesia",
+    },
+    {
+      fieldName: "Email",
+      fieldValue: "dev.thesar@gmail.com",
+    },
+    {
+      fieldName: "Freelance",
+      fieldValue: "Available",
+    },
+    {
+      fieldName: "Languages",
+      fieldValue: "Indonesian, English",
+    },
+  ],
 };
