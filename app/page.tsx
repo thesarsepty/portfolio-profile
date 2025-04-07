@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { BaseInfo } from "./Data/data";
 import { FiDownload } from "react-icons/fi";
-
+import Link from "next/link";
 // Components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
@@ -25,14 +25,21 @@ const Homepage = () => {
             </p>
             {/* Btn & Social Media */}
             <div className="flex flex-col xl:flex-row items-center gap-6">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <Link
+                href="./Resume_Thesar_Nadhif.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </Link>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
